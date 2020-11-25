@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="3" lineNum="28" pc="268435456" symbol="initialize"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="3" lineNum="30" pc="268435460" symbol="initialize"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="3" lineNum="31" pc="268435478" symbol="initialize"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="3" lineNum="33" pc="268435491" symbol="initialize"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="3" lineNum="34" pc="268435504" symbol="initialize"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="3" lineNum="35" pc="268435517" symbol="initialize"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="3" lineNum="38" pc="268435573" symbol="initialize"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="3" lineNum="39" pc="268435589" symbol="initialize"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="3" lineNum="40" pc="268435602" symbol="initialize"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="3" lineNum="41" pc="268435615" symbol="initialize"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="3" lineNum="42" pc="268435628" symbol="initialize"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="4" lineNum="45" pc="268435642" symbol="getLayoutPosition"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="4" lineNum="46" pc="268435646" symbol="getLayoutPosition"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="4" lineNum="47" pc="268435665" symbol="getLayoutPosition"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="4" lineNum="49" pc="268435706" symbol="getLayoutPosition"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="4" lineNum="51" pc="268435725" symbol="getLayoutPosition"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="4" lineNum="52" pc="268435757" symbol="getLayoutPosition"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="4" lineNum="54" pc="268435776" symbol="getLayoutPosition"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="4" lineNum="55" pc="268435808" symbol="getLayoutPosition"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="4" lineNum="57" pc="268435827" symbol="getLayoutPosition"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="4" lineNum="58" pc="268435850" symbol="getLayoutPosition"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="4" lineNum="60" pc="268435869" symbol="getLayoutPosition"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="4" lineNum="61" pc="268435892" symbol="getLayoutPosition"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="4" lineNum="63" pc="268435911" symbol="getLayoutPosition"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="4" lineNum="64" pc="268435934" symbol="getLayoutPosition"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="4" lineNum="66" pc="268435953" symbol="getLayoutPosition"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="4" lineNum="67" pc="268435976" symbol="getLayoutPosition"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="4" lineNum="69" pc="268435995" symbol="getLayoutPosition"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="4" lineNum="70" pc="268436018" symbol="getLayoutPosition"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="4" lineNum="72" pc="268436037" symbol="getLayoutPosition"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="4" lineNum="73" pc="268436051" symbol="getLayoutPosition"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="4" lineNum="75" pc="268436070" symbol="getLayoutPosition"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="4" lineNum="76" pc="268436084" symbol="getLayoutPosition"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="5" lineNum="82" pc="268436104" symbol="onLayout"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="5" lineNum="83" pc="268436108" symbol="onLayout"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="5" lineNum="84" pc="268436120" symbol="onLayout"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="5" lineNum="86" pc="268436127" symbol="onLayout"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="5" lineNum="88" pc="268436193" symbol="onLayout"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="5" lineNum="89" pc="268436236" symbol="onLayout"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="5" lineNum="90" pc="268436246" symbol="onLayout"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="5" lineNum="92" pc="268436312" symbol="onLayout"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="5" lineNum="93" pc="268436355" symbol="onLayout"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="5" lineNum="95" pc="268436365" symbol="onLayout"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="5" lineNum="98" pc="268436408" symbol="onLayout"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="5" lineNum="99" pc="268436445" symbol="onLayout"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="5" lineNum="100" pc="268436469" symbol="onLayout"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="5" lineNum="102" pc="268436493" symbol="onLayout"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="5" lineNum="103" pc="268436504" symbol="onLayout"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="5" lineNum="104" pc="268436528" symbol="onLayout"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="5" lineNum="105" pc="268436552" symbol="onLayout"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="5" lineNum="106" pc="268436577" symbol="onLayout"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="5" lineNum="107" pc="268436605" symbol="onLayout"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="5" lineNum="108" pc="268436616" symbol="onLayout"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="5" lineNum="109" pc="268436640" symbol="onLayout"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="5" lineNum="112" pc="268436667" symbol="onLayout"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="5" lineNum="114" pc="268436733" symbol="onLayout"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="5" lineNum="116" pc="268436777" symbol="onLayout"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="5" lineNum="118" pc="268436830" symbol="onLayout"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="5" lineNum="120" pc="268436896" symbol="onLayout"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="5" lineNum="122" pc="268436946" symbol="onLayout"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="5" lineNum="125" pc="268436999" symbol="onLayout"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="5" lineNum="127" pc="268437049" symbol="onLayout"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="5" lineNum="131" pc="268437093" symbol="onLayout"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="5" lineNum="132" pc="268437119" symbol="onLayout"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="5" lineNum="133" pc="268437167" symbol="onLayout"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="5" lineNum="134" pc="268437193" symbol="onLayout"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="5" lineNum="136" pc="268437216" symbol="onLayout"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="5" lineNum="139" pc="268437236" symbol="onLayout"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="5" lineNum="140" pc="268437288" symbol="onLayout"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="6" lineNum="143" pc="268437292" symbol="setStepDuration"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="6" lineNum="144" pc="268437296" symbol="setStepDuration"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="6" lineNum="145" pc="268437327" symbol="setStepDuration"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="6" lineNum="146" pc="268437358" symbol="setStepDuration"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="6" lineNum="147" pc="268437374" symbol="setStepDuration"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="7" lineNum="154" pc="268437400" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="7" lineNum="156" pc="268437404" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="7" lineNum="157" pc="268437421" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="7" lineNum="158" pc="268437434" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="7" lineNum="162" pc="268437489" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="7" lineNum="163" pc="268437499" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="7" lineNum="164" pc="268437509" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="7" lineNum="165" pc="268437582" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="7" lineNum="166" pc="268437599" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="7" lineNum="168" pc="268437612" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="7" lineNum="172" pc="268437664" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="7" lineNum="173" pc="268437671" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="7" lineNum="174" pc="268437678" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="7" lineNum="175" pc="268437685" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="7" lineNum="177" pc="268437692" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="7" lineNum="178" pc="268437704" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="7" lineNum="179" pc="268437711" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="7" lineNum="180" pc="268437718" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="7" lineNum="181" pc="268437725" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="7" lineNum="184" pc="268437735" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="7" lineNum="185" pc="268437749" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="7" lineNum="188" pc="268437800" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="7" lineNum="193" pc="268437837" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="7" lineNum="195" pc="268437850" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="7" lineNum="196" pc="268437863" symbol="compute"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="8" lineNum="200" pc="268437877" symbol="onWorkoutStarted"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="8" lineNum="201" pc="268437881" symbol="onWorkoutStarted"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="8" lineNum="202" pc="268437898" symbol="onWorkoutStarted"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="8" lineNum="203" pc="268437917" symbol="onWorkoutStarted"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="8" lineNum="204" pc="268437924" symbol="onWorkoutStarted"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="8" lineNum="205" pc="268437935" symbol="onWorkoutStarted"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="8" lineNum="206" pc="268437961" symbol="onWorkoutStarted"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="9" lineNum="213" pc="268437994" symbol="onWorkoutStepComplete"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="9" lineNum="214" pc="268437998" symbol="onWorkoutStepComplete"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="9" lineNum="215" pc="268438015" symbol="onWorkoutStepComplete"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="9" lineNum="216" pc="268438034" symbol="onWorkoutStepComplete"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="9" lineNum="217" pc="268438041" symbol="onWorkoutStepComplete"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="9" lineNum="218" pc="268438052" symbol="onWorkoutStepComplete"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="9" lineNum="219" pc="268438078" symbol="onWorkoutStepComplete"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="10" lineNum="228" pc="268438111" symbol="onUpdate"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="10" lineNum="230" pc="268438115" symbol="onUpdate"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="10" lineNum="233" pc="268438158" symbol="onUpdate"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="10" lineNum="234" pc="268438182" symbol="onUpdate"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="10" lineNum="235" pc="268438206" symbol="onUpdate"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="10" lineNum="236" pc="268438233" symbol="onUpdate"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="10" lineNum="237" pc="268438257" symbol="onUpdate"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="10" lineNum="239" pc="268438284" symbol="onUpdate"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="10" lineNum="240" pc="268438308" symbol="onUpdate"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="10" lineNum="243" pc="268438332" symbol="onUpdate"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="10" lineNum="244" pc="268438349" symbol="onUpdate"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="10" lineNum="246" pc="268438386" symbol="onUpdate"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="10" lineNum="247" pc="268438403" symbol="onUpdate"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="10" lineNum="249" pc="268438440" symbol="onUpdate"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="10" lineNum="250" pc="268438457" symbol="onUpdate"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="10" lineNum="253" pc="268438480" symbol="onUpdate"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationView.mc" id="10" lineNum="256" pc="268438500" symbol="onUpdate"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationBackground.mc" id="12" lineNum="9" pc="268438521" symbol="initialize"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationBackground.mc" id="12" lineNum="10" pc="268438525" symbol="initialize"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationBackground.mc" id="12" lineNum="14" pc="268438546" symbol="initialize"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationBackground.mc" id="13" lineNum="17" pc="268438567" symbol="setColor"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationBackground.mc" id="13" lineNum="18" pc="268438571" symbol="setColor"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationBackground.mc" id="14" lineNum="21" pc="268438582" symbol="draw"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationBackground.mc" id="14" lineNum="22" pc="268438586" symbol="draw"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationBackground.mc" id="14" lineNum="23" pc="268438618" symbol="draw"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationApp.mc" id="16" lineNum="5" pc="268438631" symbol="initialize"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationApp.mc" id="16" lineNum="6" pc="268438635" symbol="initialize"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationApp.mc" id="17" lineNum="10" pc="268438654" symbol="onStart"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationApp.mc" id="18" lineNum="14" pc="268438659" symbol="onStop"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationApp.mc" id="19" lineNum="18" pc="268438664" symbol="getInitialView"/>
+        <entry filename="/Users/samuel/Documents/Code/perso/connectiq-workout-datafields/workout-step-duration/source/workoutstepdurationApp.mc" id="19" lineNum="19" pc="268438668" symbol="getInitialView"/>
+        <entry filename="Rez" id="25" lineNum="15" pc="268438706" symbol="MainLayout"/>
+        <entry filename="Rez" id="25" lineNum="17" pc="268438718" symbol="MainLayout"/>
+        <entry filename="Rez" id="25" lineNum="18" pc="268438731" symbol="MainLayout"/>
+        <entry filename="Rez" id="25" lineNum="20" pc="268438744" symbol="MainLayout"/>
+        <entry filename="Rez" id="25" lineNum="21" pc="268438768" symbol="MainLayout"/>
+        <entry filename="Rez" id="25" lineNum="22" pc="268438931" symbol="MainLayout"/>
+        <entry filename="Rez" id="25" lineNum="24" pc="268439094" symbol="MainLayout"/>
+        <entry filename="Rez" id="26" lineNum="33" pc="268439132" symbol="AlignRightLayout"/>
+        <entry filename="Rez" id="26" lineNum="35" pc="268439144" symbol="AlignRightLayout"/>
+        <entry filename="Rez" id="26" lineNum="37" pc="268439157" symbol="AlignRightLayout"/>
+        <entry filename="Rez" id="26" lineNum="38" pc="268439181" symbol="AlignRightLayout"/>
+        <entry filename="Rez" id="26" lineNum="39" pc="268439348" symbol="AlignRightLayout"/>
+        <entry filename="Rez" id="26" lineNum="41" pc="268439515" symbol="AlignRightLayout"/>
+        <entry filename="Rez" id="27" lineNum="50" pc="268439553" symbol="AlignLeftLayout"/>
+        <entry filename="Rez" id="27" lineNum="52" pc="268439565" symbol="AlignLeftLayout"/>
+        <entry filename="Rez" id="27" lineNum="54" pc="268439578" symbol="AlignLeftLayout"/>
+        <entry filename="Rez" id="27" lineNum="55" pc="268439602" symbol="AlignLeftLayout"/>
+        <entry filename="Rez" id="27" lineNum="56" pc="268439762" symbol="AlignLeftLayout"/>
+        <entry filename="Rez" id="27" lineNum="58" pc="268439922" symbol="AlignLeftLayout"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry field="true" id="24" symbol="mStepStartTime"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="4" module="true" symbol="globals/Rez/Menus"/>
+        <entry field="true" id="30" symbol="MIDDLE"/>
+        <entry id="14" method="true" symbol="MainLayout"/>
+        <entry id="8391698" method="true" symbol="onWorkoutStarted"/>
+        <entry field="true" id="18" symbol="mValue"/>
+        <entry id="8391576" method="true" symbol="getCurrentWorkoutStep"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="20" symbol="mDurationType"/>
+        <entry field="true" id="17" symbol="AppName"/>
+        <entry id="8" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry field="true" id="8389138" symbol="label"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry field="true" id="27" symbol="SINGLE"/>
+        <entry id="12" module="true" symbol="Menus"/>
+        <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+        <entry id="16" method="true" symbol="AlignLeftLayout"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry field="true" id="28" symbol="TOP"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="9" object="true" symbol="workoutstepdurationView"/>
+        <entry field="true" id="26" symbol="mStepDurationValue"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry id="8389137" method="true" symbol="compute"/>
+        <entry field="true" id="22" symbol="mCurrentLayout"/>
+        <entry id="38" method="true" symbol="setStepDuration"/>
+        <entry id="8389131" method="true" symbol="setColor"/>
+        <entry id="7" module="true" symbol="globals/Rez/JsonData"/>
+        <entry id="8390685" method="true" symbol="onWorkoutStepComplete"/>
+        <entry field="true" id="25" symbol="mStepDurationType"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry field="true" id="36" symbol="MR"/>
+        <entry field="true" id="35" symbol="ML"/>
+        <entry field="true" id="8391582" symbol="step"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry field="true" id="34" symbol="LTQ"/>
+        <entry field="true" id="29" symbol="BOTTOM"/>
+        <entry id="8390088" module="true" object="true" symbol="JsonData"/>
+        <entry field="true" id="8389130" symbol="mColor"/>
+        <entry id="8389068" method="true" symbol="draw"/>
+        <entry field="true" id="13" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry field="true" id="21" symbol="mMetric"/>
+        <entry field="true" id="33" symbol="RTQ"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8390146" module="true" object="true" symbol="Background"/>
+        <entry field="true" id="31" symbol="LBQ"/>
+        <entry id="37" method="true" symbol="getLayoutPosition"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="15" method="true" symbol="AlignRightLayout"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry field="true" id="19" symbol="mValueType"/>
+        <entry field="true" id="32" symbol="RBQ"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry field="true" id="23" symbol="mStepStartDistance"/>
+        <entry id="8389347" symbol="color"/>
+        <entry id="10" object="true" symbol="workoutstepdurationApp"/>
+        <entry id="11" module="true" symbol="Layouts"/>
+        <entry id="5" module="true" symbol="globals/Rez/Fonts"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+    </symbolTable>
+    <localVars>
+        <entry endPc="268436103" name="obscurityFlags" stackId="1" startPc="268435646"/>
+        <entry endPc="268437291" name="heightRatio" stackId="3" startPc="268436108"/>
+        <entry endPc="268437291" name="valueView" stackId="5" startPc="268436108"/>
+        <entry endPc="268437291" name="labelView" stackId="4" startPc="268436108"/>
+        <entry endPc="268437291" name="align" stackId="2" startPc="268436108"/>
+        <entry arg="true" endPc="268437292" name="dc" stackId="1" startPc="268436104"/>
+        <entry arg="true" endPc="268437400" name="step" stackId="1" startPc="268437292"/>
+        <entry endPc="268437579" name="minutes" stackId="3" startPc="268437421"/>
+        <entry endPc="268437579" name="remaining" stackId="2" startPc="268437421"/>
+        <entry endPc="268437579" name="seconds" stackId="4" startPc="268437421"/>
+        <entry endPc="268437834" name="factor" stackId="6" startPc="268437599"/>
+        <entry endPc="268437834" name="remaining" stackId="5" startPc="268437599"/>
+        <entry endPc="268437834" name="unit" stackId="8" startPc="268437599"/>
+        <entry endPc="268437834" name="smallunitfactor" stackId="7" startPc="268437599"/>
+        <entry endPc="268437834" name="smallunit" stackId="9" startPc="268437599"/>
+        <entry arg="true" endPc="268437877" name="info" stackId="1" startPc="268437400"/>
+        <entry endPc="268437990" name="workoutStepInfo" stackId="1" startPc="268437898"/>
+        <entry endPc="268438107" name="workoutStepInfo" stackId="1" startPc="268438015"/>
+        <entry endPc="268438520" name="label" stackId="2" startPc="268438115"/>
+        <entry endPc="268438520" name="value" stackId="3" startPc="268438115"/>
+        <entry arg="true" endPc="268438521" name="dc" stackId="1" startPc="268438111"/>
+        <entry endPc="268438566" name="dictionary" stackId="1" startPc="268438525"/>
+        <entry arg="true" endPc="268438582" name="color" stackId="1" startPc="268438567"/>
+        <entry arg="true" endPc="268438631" name="dc" stackId="1" startPc="268438582"/>
+        <entry arg="true" endPc="268438659" name="state" stackId="1" startPc="268438654"/>
+        <entry arg="true" endPc="268438664" name="state" stackId="1" startPc="268438659"/>
+        <entry endPc="268439131" name="rez_cmp_local_text_value" stackId="6" startPc="268438718"/>
+        <entry endPc="268439131" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268438718"/>
+        <entry endPc="268439131" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268438718"/>
+        <entry endPc="268439131" name="rez_cmp_local_custom_drawable_12261034457363508591" stackId="4" startPc="268438718"/>
+        <entry endPc="268439131" name="rez_cmp_local_text_label" stackId="5" startPc="268438718"/>
+        <entry arg="true" endPc="268439132" name="dc" stackId="1" startPc="268438706"/>
+        <entry endPc="268439552" name="rez_cmp_local_text_value" stackId="5" startPc="268439144"/>
+        <entry endPc="268439552" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268439144"/>
+        <entry endPc="268439552" name="rez_cmp_local_text_label" stackId="4" startPc="268439144"/>
+        <entry endPc="268439552" name="rez_cmp_local_custom_drawable_10010482951762168470" stackId="3" startPc="268439144"/>
+        <entry arg="true" endPc="268439553" name="dc" stackId="1" startPc="268439132"/>
+        <entry endPc="268439959" name="rez_cmp_local_text_value" stackId="5" startPc="268439565"/>
+        <entry endPc="268439959" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268439565"/>
+        <entry endPc="268439959" name="rez_cmp_local_text_label" stackId="4" startPc="268439565"/>
+        <entry endPc="268439959" name="rez_cmp_local_custom_drawable_77683652819938918129" stackId="3" startPc="268439565"/>
+        <entry arg="true" endPc="268439960" name="dc" stackId="1" startPc="268439553"/>
+    </localVars>
+    <annotations/>
+    <dataEntryOffsetMappings>
+        <dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
+        <dataEntry offset="158" parentId="globals" symbolId="Background" type="class"/>
+        <dataEntry offset="229" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry offset="308" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry offset="347" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry offset="378" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry offset="409" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry offset="464" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry offset="495" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry offset="542" parentId="globals" symbolId="workoutstepdurationApp" type="class"/>
+        <dataEntry offset="613" parentId="globals" symbolId="workoutstepdurationView" type="class"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" name="initialize" parent="workoutstepdurationView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="getLayoutPosition" parent="workoutstepdurationView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onLayout" parent="workoutstepdurationView">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="setStepDuration" parent="workoutstepdurationView">
+            <param id="step"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="compute" parent="workoutstepdurationView">
+            <param id="info"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onWorkoutStarted" parent="workoutstepdurationView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onWorkoutStepComplete" parent="workoutstepdurationView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onUpdate" parent="workoutstepdurationView">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="Background">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="setColor" parent="Background">
+            <param id="color"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="draw" parent="Background">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="workoutstepdurationApp">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStart" parent="workoutstepdurationApp">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStop" parent="workoutstepdurationApp">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="getInitialView" parent="workoutstepdurationApp">
+            <documentation><![CDATA[<div class="description"> Return the initial view of your application here<br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" name="MainLayout" parent="Layouts">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="AlignRightLayout" parent="Layouts">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="AlignLeftLayout" parent="Layouts">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>
