@@ -28,8 +28,8 @@ class workoutsteptargetpaceView extends WatchUi.DataField {
   initialize() {
     DataField.initialize();
     mValue = "---";
-    // Types: 1 = float, 2 = int, 3 = string
-    mValueType = 3;
+    // Types: 1 = number, 2 = string
+    mValueType = 2;
     mTargetType = "NO";
     mMetric = System.getDeviceSettings().paceUnits == System.UNIT_METRIC
                   ? true
@@ -89,6 +89,7 @@ class workoutsteptargetpaceView extends WatchUi.DataField {
   function onLayout(dc) {
     getLayoutPosition();
     var align = 0;
+    var fontSize = 0;
 
     if (mCurrentLayout == ML || mCurrentLayout == LTQ ||
         mCurrentLayout == LBQ) {
@@ -116,30 +117,32 @@ class workoutsteptargetpaceView extends WatchUi.DataField {
       valueView.setJustification(Graphics.TEXT_JUSTIFY_LEFT);
     }
 
-    if (mCurrentLayout == RBQ || mCurrentLayout == LBQ ||
-        mCurrentLayout == BOTTOM) {
+    if (mCurrentLayout == RTQ || mCurrentLayout == LTQ ||
+        mCurrentLayout == TOP) {
+      labelView.locY = 3;
+    } else if (mCurrentLayout == SINGLE) {
       labelView.locY =
-          labelView.locY - Graphics.getFontHeight(Graphics.FONT_XTINY);
-      valueView.locY =
-          valueView.locY + (Graphics.getFontHeight(Graphics.FONT_XTINY) / 2);
-    } else if (mCurrentLayout == MIDDLE || mCurrentLayout == MR ||
-               mCurrentLayout == ML) {
-      labelView.locY =
-          labelView.locY - (Graphics.getFontHeight(Graphics.FONT_XTINY) * 0.75);
-      valueView.locY =
-          valueView.locY + (Graphics.getFontHeight(Graphics.FONT_XTINY) * 0.75);
+          ((dc.getHeight() - Graphics.getFontHeight(fontSize)) / 2) -
+          Graphics.getFontHeight(Graphics.FONT_XTINY);
     } else {
-      labelView.locY =
-          labelView.locY - (Graphics.getFontHeight(Graphics.FONT_XTINY) / 2);
-      valueView.locY =
-          valueView.locY + Graphics.getFontHeight(Graphics.FONT_XTINY);
+      labelView.locY = 0;
     }
 
-    if (mValue.length() > 10) {
-      valueView.setFont(4 - heightRatio < 0 ? 0 : 4 - heightRatio);
+    if (mValueType == 1) {
+      fontSize = 6 - heightRatio < 0 ? 0 : 6 - heightRatio;
+      if (mValue.length() > 10 && fontSize > 0) {
+        fontSize = fontSize - 1;
+      }
     } else {
-      valueView.setFont(5 - heightRatio);
+      fontSize = 5 - heightRatio < 0 ? 0 : 5 - heightRatio;
+      if (mValue.length() > 10 && fontSize > 0) {
+        fontSize--;
+      }
     }
+
+    valueView.locY =
+        ((dc.getHeight() - Graphics.getFontHeight(fontSize)) / 2) + 5;
+    valueView.setFont(fontSize);
 
     View.findDrawableById("label").setText(Rez.Strings.label);
     return true;
@@ -154,8 +157,9 @@ class workoutsteptargetpaceView extends WatchUi.DataField {
     return Lang.format("$1$:$2$", [ minutes, seconds.format("%02u") ]);
   }
 
-  function setStepValue(step,intensity,sport) {
+  function setStepValue(step, intensity, sport) {
     if (step.targetType == 0) {
+      mValueType = 1;
       if (mUseSpeed) {
         mTargetType = "SPEED";
         var factor = mMetric ? 3.6 : 2.23694;
@@ -170,6 +174,7 @@ class workoutsteptargetpaceView extends WatchUi.DataField {
       }
     }
     if (step.targetType == 1) {
+      mValueType = 1;
       mTargetType = "HR";
       var minHR = 0;
       var maxHR = 0;
@@ -202,47 +207,42 @@ class workoutsteptargetpaceView extends WatchUi.DataField {
       mValue = minHR + "-" + maxHR;
     }
     if (step.targetType == 2) {
+      mValueType = 2;
       mTargetType = "INTENS.";
-      if(intensity == 0){
-        if(sport == 1){
-      	mValue = "RUN";
-      	} else if (sport == 2){
-      	mValue = "BIKE";
-      	} else {
-      	mValue = "ACTIVE";
-      	}
-      }
-      else if(intensity == 1){
-      	mValue = "REST";
-      }
-      else if(intensity == 2){
-      	mValue = "WARMUP";
-      }
-      else if(intensity == 3){
-      	mValue = "COOLDOWN";
-      }
-      else if(intensity == 4){
-      	mValue = "RECOVER";
-      }
-      else if(intensity == 5){
-      	mValue = "INTERVAL";
-      }
-      else if(intensity == 6){
-      	mValue = "OTHER";
-      }
-      else {
+      if (intensity == 0) {
+        if (sport == 1) {
+          mValue = "RUN";
+        } else if (sport == 2) {
+          mValue = "BIKE";
+        } else {
+          mValue = "ACTIVE";
+        }
+      } else if (intensity == 1) {
+        mValue = "REST";
+      } else if (intensity == 2) {
+        mValue = "WARMUP";
+      } else if (intensity == 3) {
+        mValue = "COOLDOWN";
+      } else if (intensity == 4) {
+        mValue = "RECOVER";
+      } else if (intensity == 5) {
+        mValue = "INTERVAL";
+      } else if (intensity == 6) {
+        mValue = "OTHER";
+      } else {
         mValue = "---";
       }
     }
     if (step.targetType == 3) {
+      mValueType = 1;
       mTargetType = "CADENCE";
       mValue = step.targetValueLow + "-" + step.targetValueHigh;
     }
     if (step.targetType > 3) {
+      mValueType = 2;
       mTargetType = "NOT";
       mValue = "SUPPORTED";
     }
-    mValueType = 3;
   }
 
   // The given info object contains all the current workout information.
@@ -258,7 +258,8 @@ class workoutsteptargetpaceView extends WatchUi.DataField {
           if (workoutStepInfo.step instanceof Activity.WorkoutStep) {
             if (mCurrentWorkoutStep == null ||
                 stepNotEquals(mCurrentWorkoutStep, workoutStepInfo.step)) {
-              setStepValue(workoutStepInfo.step, workoutStepInfo.intensity, workoutStepInfo.sport);
+              setStepValue(workoutStepInfo.step, workoutStepInfo.intensity,
+                           workoutStepInfo.sport);
               mCurrentWorkoutStep = workoutStepInfo.step;
             }
           } else {
@@ -290,15 +291,7 @@ class workoutsteptargetpaceView extends WatchUi.DataField {
       label.setColor(Graphics.COLOR_BLACK);
     }
 
-    if (mValueType == 1) {
-      value.setText(mValue.format("%.2f"));
-    }
-    if (mValueType == 2) {
-      value.setText(mValue.format("%d"));
-    }
-    if (mValueType == 3) {
-      value.setText(mValue);
-    }
+    value.setText(mValue);
 
     label.setText(mTargetType + " TGT");
 

@@ -29,8 +29,8 @@ class workoutstepdurationView extends WatchUi.DataField {
   initialize() {
     DataField.initialize();
     mValue = "SUPPORTED";
-    // Types: 1 = float, 2 = int, 3 = string
-    mValueType = 3;
+    // Types: 1 = number, 2 = string
+    mValueType = 2;
     mDurationType = "NOT";
     mMetric = System.getDeviceSettings().paceUnits == System.UNIT_METRIC
                   ? true
@@ -77,11 +77,10 @@ class workoutstepdurationView extends WatchUi.DataField {
     }
   }
 
-  // Set your layout here. Anytime the size of obscurity of
-  // the draw context is changed this will be called.
   function onLayout(dc) {
     getLayoutPosition();
     var align = 0;
+    var fontSize = 0;
 
     if (mCurrentLayout == ML || mCurrentLayout == LTQ ||
         mCurrentLayout == LBQ) {
@@ -109,30 +108,32 @@ class workoutstepdurationView extends WatchUi.DataField {
       valueView.setJustification(Graphics.TEXT_JUSTIFY_LEFT);
     }
 
-    if (mCurrentLayout == RBQ || mCurrentLayout == LBQ ||
-        mCurrentLayout == BOTTOM) {
+    if (mCurrentLayout == RTQ || mCurrentLayout == LTQ ||
+        mCurrentLayout == TOP) {
+      labelView.locY = 3;
+    } else if (mCurrentLayout == SINGLE) {
       labelView.locY =
-          labelView.locY - Graphics.getFontHeight(Graphics.FONT_XTINY);
-      valueView.locY =
-          valueView.locY + (Graphics.getFontHeight(Graphics.FONT_XTINY) / 2);
-    } else if (mCurrentLayout == MIDDLE || mCurrentLayout == MR ||
-               mCurrentLayout == ML) {
-      labelView.locY =
-          labelView.locY - (Graphics.getFontHeight(Graphics.FONT_XTINY) * 0.75);
-      valueView.locY =
-          valueView.locY + (Graphics.getFontHeight(Graphics.FONT_XTINY) * 0.75);
+          ((dc.getHeight() - Graphics.getFontHeight(fontSize)) / 2) -
+          Graphics.getFontHeight(Graphics.FONT_XTINY);
     } else {
-      labelView.locY =
-          labelView.locY - (Graphics.getFontHeight(Graphics.FONT_XTINY) / 2);
-      valueView.locY =
-          valueView.locY + Graphics.getFontHeight(Graphics.FONT_XTINY);
+      labelView.locY = 0;
     }
 
-    if (mValue.length() > 10) {
-      valueView.setFont(4 - heightRatio < 0 ? 0 : 4 - heightRatio);
+    if (mValueType == 1) {
+      fontSize = 6 - heightRatio < 0 ? 0 : 6 - heightRatio;
+      if (mValue.length() > 10 && fontSize > 0) {
+        fontSize = fontSize - 1;
+      }
     } else {
-      valueView.setFont(5 - heightRatio);
+      fontSize = 5 - heightRatio < 0 ? 0 : 5 - heightRatio;
+      if (mValue.length() > 10 && fontSize > 0) {
+        fontSize--;
+      }
     }
+
+    valueView.locY =
+        ((dc.getHeight() - Graphics.getFontHeight(fontSize)) / 2) + 5;
+    valueView.setFont(fontSize);
 
     View.findDrawableById("label").setText(Rez.Strings.label);
     return true;
@@ -160,9 +161,9 @@ class workoutstepdurationView extends WatchUi.DataField {
       var minutes = (remaining / 60);
       var seconds = (remaining % 60);
       mValue = Lang.format("$1$:$2$", [ minutes, seconds.format("%02u") ]);
+      mValueType = 1;
     } else if (mStepDurationType == 1) {  // Distance
       mDurationType = "DISTANCE";
-
       var remaining = mStepDurationValue -
                       ((Activity.getActivityInfo().elapsedDistance).toNumber() -
                        mStepStartDistance);
@@ -186,11 +187,11 @@ class workoutstepdurationView extends WatchUi.DataField {
         mValue =
             (remaining / factor * smallunitfactor).toNumber() + " " + smallunit;
       }
+      mValueType = 2;
 
     } else {  // NOT SUPPORTED YET
       mValue = "SUPPORTED";
-      // Types: 1 = float, 2 = int, 3 = string
-      mValueType = 3;
+      mValueType = 2;
       mDurationType = "NOT";
     }
   }
@@ -238,16 +239,7 @@ class workoutstepdurationView extends WatchUi.DataField {
       label.setColor(Graphics.COLOR_BLACK);
     }
 
-    if (mValueType == 1) {
-      value.setText(mValue.format("%.2f"));
-    }
-    if (mValueType == 2) {
-      value.setText(mValue.format("%d"));
-    }
-    if (mValueType == 3) {
       value.setText(mValue);
-    }
-
     label.setText(mDurationType);
 
     // Call parent's onUpdate(dc) to redraw the layout
