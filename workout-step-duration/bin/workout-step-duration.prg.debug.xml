@@ -269,18 +269,18 @@
         <entry endPc="268439131" name="rez_cmp_local_text_value" stackId="6" startPc="268438718"/>
         <entry endPc="268439131" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268438718"/>
         <entry endPc="268439131" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268438718"/>
-        <entry endPc="268439131" name="rez_cmp_local_custom_drawable_12261034457363508591" stackId="4" startPc="268438718"/>
         <entry endPc="268439131" name="rez_cmp_local_text_label" stackId="5" startPc="268438718"/>
+        <entry endPc="268439131" name="rez_cmp_local_custom_drawable_12578900491065747030" stackId="4" startPc="268438718"/>
         <entry arg="true" endPc="268439132" name="dc" stackId="1" startPc="268438706"/>
         <entry endPc="268439552" name="rez_cmp_local_text_value" stackId="5" startPc="268439144"/>
+        <entry endPc="268439552" name="rez_cmp_local_custom_drawable_16162532211487406989" stackId="3" startPc="268439144"/>
         <entry endPc="268439552" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268439144"/>
         <entry endPc="268439552" name="rez_cmp_local_text_label" stackId="4" startPc="268439144"/>
-        <entry endPc="268439552" name="rez_cmp_local_custom_drawable_10010482951762168470" stackId="3" startPc="268439144"/>
         <entry arg="true" endPc="268439553" name="dc" stackId="1" startPc="268439132"/>
         <entry endPc="268439959" name="rez_cmp_local_text_value" stackId="5" startPc="268439565"/>
+        <entry endPc="268439959" name="rez_cmp_local_custom_drawable_20953055261258741989" stackId="3" startPc="268439565"/>
         <entry endPc="268439959" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268439565"/>
         <entry endPc="268439959" name="rez_cmp_local_text_label" stackId="4" startPc="268439565"/>
-        <entry endPc="268439959" name="rez_cmp_local_custom_drawable_77683652819938918129" stackId="3" startPc="268439565"/>
         <entry arg="true" endPc="268439960" name="dc" stackId="1" startPc="268439553"/>
     </localVars>
     <annotations/>
