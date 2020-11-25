@@ -30,7 +30,7 @@ class workoutsteptargetpaceView extends WatchUi.DataField {
     mValue = "---";
     // Types: 1 = float, 2 = int, 3 = string
     mValueType = 3;
-    mTargetType = "No";
+    mTargetType = "NO";
     mMetric = System.getDeviceSettings().paceUnits == System.UNIT_METRIC
                   ? true
                   : false;
@@ -135,10 +135,8 @@ class workoutsteptargetpaceView extends WatchUi.DataField {
           valueView.locY + Graphics.getFontHeight(Graphics.FONT_XTINY);
     }
 
-    if (mValue.length() > 9) {
+    if (mValue.length() > 10) {
       valueView.setFont(4 - heightRatio < 0 ? 0 : 4 - heightRatio);
-    } else if (mValue.length() > 7) {
-      valueView.setFont(4 - heightRatio);
     } else {
       valueView.setFont(5 - heightRatio);
     }
@@ -156,16 +154,16 @@ class workoutsteptargetpaceView extends WatchUi.DataField {
     return Lang.format("$1$:$2$", [ minutes, seconds.format("%02u") ]);
   }
 
-  function setStepValue(step) {
+  function setStepValue(step,intensity,sport) {
     if (step.targetType == 0) {
       if (mUseSpeed) {
-        mTargetType = "Speed";
+        mTargetType = "SPEED";
         var factor = mMetric ? 3.6 : 2.23694;
         var minSpeed = step.targetValueLow * factor;
         var maxSpeed = step.targetValueHigh * factor;
         mValue = minSpeed.format("%.2f") + "-" + maxSpeed.format("%.2f");
       } else {
-        mTargetType = "Pace";
+        mTargetType = "PACE";
         var minPace = convertPace(step.targetValueLow);
         var maxPace = convertPace(step.targetValueHigh);
         mValue = maxPace + "-" + minPace;
@@ -204,32 +202,45 @@ class workoutsteptargetpaceView extends WatchUi.DataField {
       mValue = minHR + "-" + maxHR;
     }
     if (step.targetType == 2) {
-      System.println(step.targetValueHigh);
-      System.println(step.targetValueLow);
-      mTargetType = "No";
-      if(step.targetValueHigh == 0){
-      	mValue = "Active";
+      mTargetType = "INTENS.";
+      if(intensity == 0){
+        if(sport == 1){
+      	mValue = "RUN";
+      	} else if (sport == 2){
+      	mValue = "BIKE";
+      	} else {
+      	mValue = "ACTIVE";
+      	}
       }
-      else if(step.targetValueHigh == 1){
-      	mValue = "Rest";
+      else if(intensity == 1){
+      	mValue = "REST";
       }
-      else if(step.targetValueHigh == 2){
-      	mValue = "Warmup";
+      else if(intensity == 2){
+      	mValue = "WARMUP";
       }
-      else if(step.targetValueHigh == 3){
-      	mValue = "Cooldown";
+      else if(intensity == 3){
+      	mValue = "COOLDOWN";
+      }
+      else if(intensity == 4){
+      	mValue = "RECOVER";
+      }
+      else if(intensity == 5){
+      	mValue = "INTERVAL";
+      }
+      else if(intensity == 6){
+      	mValue = "OTHER";
       }
       else {
         mValue = "---";
       }
     }
     if (step.targetType == 3) {
-      mTargetType = "Cadence";
+      mTargetType = "CADENCE";
       mValue = step.targetValueLow + "-" + step.targetValueHigh;
     }
     if (step.targetType > 3) {
-      mTargetType = "Not Supported";
-      mValue = "---";
+      mTargetType = "NOT";
+      mValue = "SUPPORTED";
     }
     mValueType = 3;
   }
@@ -247,7 +258,7 @@ class workoutsteptargetpaceView extends WatchUi.DataField {
           if (workoutStepInfo.step instanceof Activity.WorkoutStep) {
             if (mCurrentWorkoutStep == null ||
                 stepNotEquals(mCurrentWorkoutStep, workoutStepInfo.step)) {
-              setStepValue(workoutStepInfo.step);
+              setStepValue(workoutStepInfo.step, workoutStepInfo.intensity, workoutStepInfo.sport);
               mCurrentWorkoutStep = workoutStepInfo.step;
             }
           } else {
@@ -257,7 +268,7 @@ class workoutsteptargetpaceView extends WatchUi.DataField {
       } else {
         mValue = "---";
         mValueType = 3;
-        mTargetType = "No";
+        mTargetType = "NO";
       }
     }
   }
@@ -289,7 +300,7 @@ class workoutsteptargetpaceView extends WatchUi.DataField {
       value.setText(mValue);
     }
 
-    label.setText(mTargetType + " tgt");
+    label.setText(mTargetType + " TGT");
 
     // Call parent's onUpdate(dc) to redraw the layout
     View.onUpdate(dc);

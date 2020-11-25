@@ -28,10 +28,10 @@ class workoutstepdurationView extends WatchUi.DataField {
   function
   initialize() {
     DataField.initialize();
-    mValue = "Supported";
+    mValue = "SUPPORTED";
     // Types: 1 = float, 2 = int, 3 = string
     mValueType = 3;
-    mDurationType = "Not";
+    mDurationType = "NOT";
     mMetric = System.getDeviceSettings().paceUnits == System.UNIT_METRIC
                   ? true
                   : false;
@@ -128,12 +128,10 @@ class workoutstepdurationView extends WatchUi.DataField {
           valueView.locY + Graphics.getFontHeight(Graphics.FONT_XTINY);
     }
 
-    if (mValue.length() > 9) {
+    if (mValue.length() > 10) {
       valueView.setFont(4 - heightRatio < 0 ? 0 : 4 - heightRatio);
-    } else if (mValue.length() > 7) {
-      valueView.setFont(5 - heightRatio);
     } else {
-      valueView.setFont(6 - heightRatio);
+      valueView.setFont(5 - heightRatio);
     }
 
     View.findDrawableById("label").setText(Rez.Strings.label);
@@ -154,7 +152,7 @@ class workoutstepdurationView extends WatchUi.DataField {
   function compute(info) {
     // See Activity.Info in the documentation for available information.
     if (mStepDurationType == 0) {  // TIME
-      mDurationType = "Time";
+      mDurationType = "TIME";
       var remaining =
           ((mStepDurationValue * 1000) -
            (Activity.getActivityInfo().elapsedTime - mStepStartTime)) /
@@ -163,7 +161,7 @@ class workoutstepdurationView extends WatchUi.DataField {
       var seconds = (remaining % 60);
       mValue = Lang.format("$1$:$2$", [ minutes, seconds.format("%02u") ]);
     } else if (mStepDurationType == 1) {  // Distance
-      mDurationType = "Distance";
+      mDurationType = "DISTANCE";
 
       var remaining = mStepDurationValue -
                       ((Activity.getActivityInfo().elapsedDistance).toNumber() -
@@ -183,17 +181,17 @@ class workoutstepdurationView extends WatchUi.DataField {
 
       if ((remaining / factor) > 1) {
         mValue =
-            ((remaining * 1.0) / (factor * 1.0)).format("%.3f") + "" + unit;
+            ((remaining * 1.0) / (factor * 1.0)).format("%.3f") + " " + unit;
       } else {
         mValue =
-            (remaining / factor * smallunitfactor).toNumber() + "" + smallunit;
+            (remaining / factor * smallunitfactor).toNumber() + " " + smallunit;
       }
 
     } else {  // NOT SUPPORTED YET
-      mValue = "Supported";
+      mValue = "SUPPORTED";
       // Types: 1 = float, 2 = int, 3 = string
       mValueType = 3;
-      mDurationType = "Not";
+      mDurationType = "NOT";
     }
   }
 
